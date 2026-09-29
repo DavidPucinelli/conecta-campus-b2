@@ -1,0 +1,55 @@
+ 
+
+
+
+
+ header{
+    background-color: #000000;
+    color: #ffffff;
+ }
+
+ a{
+    text-decoration: none;
+    color: #00ff00;
+ }
+
+ p{
+   color: #0000ff;;
+ }
+
+ .paragrafo-conteudo{
+    color: #a1f231;
+    font-weight: bold;
+
+ }  
+ #menu{
+    background-color: #4b0b8a;
+ }
+ 
+  input[type="email"]{
+   border:2px solid #0000ff;
+ }
+ a:link{
+    color:#faff5f
+ }
+
+a:active{
+    color:#010004
+ }
+
+ a:hover{
+    background-color:#ffffff;
+    color:#000000
+ }
+
+ a{href="#"}:hover{
+   blackground-color:#ffffff;
+   color:#000000
+ }
+
+ */
+
+ main article a:hover{
+   blackground-color:#ffffff;
+   color:#000000
+ }
