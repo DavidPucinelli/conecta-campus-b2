@@ -1,43 +1,59 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Conecta Campus | Início</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <script src="js/script.js" defer></script>
-</head>
-<body>
-  <header class="cabecalho">
-    <div class="container cabecalho-conteudo">
-      <a class="marca" href="index.html" aria-label="Conecta Campus - página inicial">
-        Conecta Campus
-      </a>
-      <nav aria-label="Navegação principal">
-        <ul class="menu">
-          <li><a aria-current="page" href="index.html">Início</a></li>
-          <li><a href="locais.html">Locais</a></li>
-          <li><a href="detalhes.html">Acessibilidade</a></li>
+<!doctype html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conecta Campus</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+  </head>
+
+  <body>
+   <!-- CABECALHO -->
+    <header style="background-color: #272626;color:#ffffff;">
+      <h1>Home</h1>
+      <nav id="menu">
+        <ul style="list-style: square;">
+          <li><a style="text-decoration: none;" href="./detalhes.html">Detalhes</a></li>
+          <li><a  style="text-decoration: none;" href="./locais.html">Locais</a></li>
+          <li><a style="text-decoration: none;" href="./paginas/pagina1.html">Página-1</a></li>
         </ul>
       </nav>
-    </div>
-  </header>
+    </header>
+    <!-- CABECALHO -->
+    <!-- CONTEUDO -->
+    <main>
+        <section>
+           <h2>Campus ao redor do Mundo</h2>
+           <p class="paragrafo-conteudo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum itaque non porro? Ut qui sequi repellat magni adipisci maiores, error dolor eaque at quibusdam, accusantium laudantium similique nihil aliquid voluptatum, ex blanditiis modi enim doloremque soluta obcaecati deserunt. Quisquam fugit recusandae laudantium repudiandae voluptatibus aspernatur ad modi veniam atque quos!</p>
+           <!-- <img src="https://picsum.photos/200/300" alt="Bolo" class="img"> -->
+            <img src="./img/rota-acessivel.jpg" alt="Construção" class="img" width="20%">
+        </section>
+        <article>
+            <h2>Bolos Maravilhosos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil illo distinctio quidem reiciendis aliquam numquam vero a officiis sed officia, asperiores corrupti beatae iusto quis, tenetur nisi rerum. Ut, quam!</p>
+            <a href="#">mais...</a>
+        </article>
+    </main>
+    <!-- CONTEUDO -->
+    <!-- RODAPE -->
+    <footer>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>CONTATO</legend>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email">
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
+        <p class="paragrafo-rodape">Copyright &copy; 2023 - Todos os direitos reservados - Conecta Campus</p>
+    </footer>
+    <!-- RODAPE -->
+  </body>
 
-  <main id="inicio">
-    <section class="hero" aria-labelledby="titulo-principal">
-      <div class="container hero-conteudo">
-        <p class="etiqueta">Informação para circular com autonomia</p>
-        <h1 id="titulo-principal">Encontre espaços e serviços do campus</h1>
-        <p class="hero-texto">
-          Consulte localização, horário e recursos de acessibilidade antes de sair.
-        </p>
-        <a class="botao" href="locais.html">Explorar locais</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="rodape">
-    <p>&copy; 2026 Conecta Campus. Todos os direitos reservados.</p>
-  </footer>
-</body>
 </html>
+
